@@ -1,0 +1,31 @@
+@curve: 10px;
+
+:host {
+  .container {
+    overflow: auto;
+    max-height: 80vh;
+    li {
+      display: block;
+      width: auto;
+      border: 3px solid rgb(51, 161, 240);
+      border-radius: @curve;
+      margin: 1% auto;
+      a {
+        width: min-content;
+        margin: 3%;
+      }
+    }
+  }
+
+  .button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: @curve;
+    cursor: pointer;
+  }
+}
